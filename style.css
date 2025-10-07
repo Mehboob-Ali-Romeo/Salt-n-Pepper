@@ -16,7 +16,7 @@ html {
 
 @font-face {
     font-family: apercu;
-    src: url(Assets/fonts/Apercu/Apercu\ bold.otf);
+    src: url(Assets/fonts/Apercu/Apercu\ regular.otf);
 }
 
 @font-face {
@@ -59,3 +59,44 @@ nav > button {
 }
 
 /* nav bar ended */
+
+/* carousel started */
+
+.carousel {
+    width: 100%;
+}
+/* carousel ended */
+
+/* our brands started */
+
+.our-brands {
+    font-size: 1.5rem;
+    font-family: apercu;
+    font-weight: lighter;
+    margin: 30px 0px 0px 0px;
+}
+
+.futurak {
+    font-family: futurak;
+    font-size: 5rem;
+}
+
+.our-brands > .para {
+    font-size: 1.3rem;
+    color: #ffffffB3;
+    margin: 15px;
+}
+
+.brand-image {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.brand-online-btn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding: 10px 45px;
+    color: var(--white);
+}
