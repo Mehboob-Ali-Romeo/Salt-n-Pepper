@@ -11,12 +11,12 @@ html {
 
 @font-face {
     font-family: inter;
-    src: url(Assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+    src: url(Assets/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
 }
 
 @font-face {
     font-family: apercu;
-    src: url(Assets/fonts/Apercu/Apercu\ regular.otf);
+    src: url(Assets/fonts/Apercu/Apercu\ bold.otf);
 }
 
 @font-face {
@@ -26,7 +26,6 @@ html {
 
 body {
     font-family:inter;
-    background-color: #000000;
 }
 
 /* navbar started  */
@@ -43,3 +42,20 @@ nav > button {
     font-size: 1.5rem
 }
 
+.franchise-btn {
+  border: 1px solid var(--white);  
+  background-color: transparent;
+  color: var(--white);
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.order-btn {
+    border: 0px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+/* nav bar ended */
