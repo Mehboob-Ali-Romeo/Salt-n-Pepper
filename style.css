@@ -1,22 +1,22 @@
 html {
     font-size: 62.5%;
- }
+}
 
- :root {
+:root {
     --black: #000000;
     --white: #ffffff;
     --red: #ed1c24;
     --grey: #1d1d1d;
- }
+}
 
 @font-face {
     font-family: inter;
-    src: url(Assets/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(Assets/fonts/Inter/inter-thin.ttf);
 }
 
 @font-face {
     font-family: apercu;
-    src: url(Assets/fonts/Apercu/Apercu\ regular.otf);
+    src: url(Assets/fonts/Apercu/apercu-pro-extra-light.ttf);
 }
 
 @font-face {
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    font-family:inter;
+    font-family: inter;
 }
 
 /* navbar started  */
@@ -34,20 +34,20 @@ body {
     width: 165px;
 }
 
-nav > a {
+nav>a {
     font-size: 1.8rem;
 }
 
-nav > button {
+nav>button {
     font-size: 1.5rem
 }
 
 .franchise-btn {
-  border: 1px solid var(--white);  
-  background-color: transparent;
-  color: var(--white);
-  padding: 15px 20px;
-  border-radius: 30px;
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
 }
 
 .order-btn {
@@ -65,6 +65,7 @@ nav > button {
 .carousel {
     width: 100%;
 }
+
 /* carousel ended */
 
 /* our brands started */
@@ -81,7 +82,7 @@ nav > button {
     font-size: 5rem;
 }
 
-.our-brands > .para {
+.our-brands>.para {
     font-size: 1.3rem;
     color: #ffffffB3;
     margin: 15px;
@@ -104,12 +105,563 @@ nav > button {
 .main-head {
     font-size: 4rem;
     font-family: apercu;
-     font-weight: lighter;
+    font-weight: lighter;
     margin: 30px 0px 0px 0px;
 }
 
-.our-franchise > .para {
-    font-size: 1.3rem;
-    color: #ffffffB3;
-    margin: 15px;
+
+/* restuarant franchise sterted */
+
+.our-franchise {
+    margin-top: 100px;
 }
+
+.franchise-islamabad {
+    margin-top: 40px;
+}
+
+.location-img {
+    width: 15px;
+}
+
+.phone-img {
+    border-radius: 50%;
+    width: 15px;
+}
+
+.franchise-section {
+    padding: 60px;
+}
+
+.franchise-text h5 {
+    color: var(--red);
+    letter-spacing: 6px;
+    font-size: 1.6rem;
+    font-family: apercu;
+}
+
+.franchise-text h3 {
+    font-size: 2.5rem;
+}
+
+.futurak {
+    font-size: 4rem;
+}
+
+.franchise-text p {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.franchise-text a {
+    font-size: 1.5rem;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.get-directions-btn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--white);
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+.islamabad-img img {
+    width: 500px !important;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+.para {
+    font-size: 1.5rem;
+}
+
+
+/* faisalabad franchise started */
+
+.faisalabad-img {
+    width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.faisalabad-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.franchise-faisalabad {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+/* faisalabad franchise ended */
+
+/* bahawalpur franchise started  */
+
+.bahawalpur-img {
+    width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.bahawalpur-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.franchise-bahawalpur {
+    margin-top: 40px
+}
+
+/* bahawalpur franchise ended  */
+
+
+/* express franchises started */
+
+.express-franchises-head {
+    margin-top: 40px;
+    font-size: 4rem;
+    font-family: apaercu;
+}
+
+.express-franchises-images {
+    width: 400px;
+    height: 250px;
+}
+
+
+.franchise-card {
+    width: 25%;
+    color: var(--white);
+}
+
+
+.franchise-card h5 {
+    color: var(--red);
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+}
+
+.express-franchise h3 {
+    font-family: apercu;
+    font-size: 2.5rem;
+}
+
+.express-franchise h3 .futurak {
+    font-size: 2.5rem;
+}
+
+.location-img {
+    margin-top: 15px;
+}
+
+.location-img {
+    font-size: 2rem;
+}
+
+
+.express-franchise-btn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--white);
+    display: block;
+    margin: 20px auto;
+}
+
+.franchise-card p {
+    font-size: 1rem;
+    line-height: 1.5; 
+    color: var(--white); 
+    margin: 5px 0;
+}
+
+.franchise-card p {
+    font-size: clamp(1.7rem, 1vw, 1.2rem);
+}
+
+/* express franchises ended*/
+
+.village-franchise-head {
+    margin-top: 40px;
+    font-size: 5rem;
+    font-family: apaercu;
+}
+
+.village-franchise-head  .futurak {
+    font-size: 5rem;
+}
+
+.village-img {
+    width: 800px;
+    height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.village-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.village-franchise {
+    margin-top: 40px;
+    flex-direction: row-reverse;
+}
+
+
+/* coming soon section started  */
+
+.franchise-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.opening-soon {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.franchise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    padding: 0 10px;
+}
+
+.franchise-card-coming{
+    background-color:var(--white); 
+    color: var(--black);
+    border-radius: 5px; 
+    padding: 30px;
+    min-height: 250px; 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--white); 
+}
+
+
+.location-pin-container {
+    margin-bottom: 20px;
+}
+
+.location-pin {
+    width: 30px;
+    height: 30px;
+    background-color:var(--red); 
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    position: relative;
+    margin: 0 auto;
+}
+
+.location-pin::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color:var(--white); 
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.status {
+    color:var(--red);
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.location-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color:var(--black);
+}
+
+.city-name {
+    font-size: 16px;
+    margin: 0;
+    color:var(--grey);
+    line-height: 1.3;
+}
+
+@media (max-width: 992px) {
+    .franchise-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .franchise-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .franchise-card {
+        padding: 20px;
+        min-height: 180px;
+    }
+}
+
+/* coming soon section ended  */
+
+
+/* main footer started  */
+
+
+/* Footer Container */
+.main-footer {
+    background-color: #1a1a1a; 
+    color: var(--white);
+    font-family: Arial, sans-serif; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex; 
+    justify-content: space-between;
+    gap: 30px; 
+    border-bottom: 1px solid #333333; 
+    padding-bottom: 40px;
+}
+
+/* Common Column Styling */
+.footer-column {
+    flex: 1; 
+    min-width: 200px; 
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.footer-logo {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #cccccc; 
+    margin-bottom: 20px;
+}
+
+.legal-links a {
+    font-size: 14px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #cccccc;
+}
+.legal-links a:last-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/* Column 2: Site Links */
+.site-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-links li {
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+.footer-link, .contact-detail {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-link:hover {
+    color: var(--red); 
+}
+
+/* Column 3: Contact Us */
+.contact-us p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.contact-us strong {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contact-us strong:first-child {
+    margin-top: 0;
+}
+
+.email-link {
+    color: #cccccc;
+}
+
+/* Column 4: Follow Us */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Styling for the placeholder social icons */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:var(--red); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--white);
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+.social-icon::after {
+    content: ''; 
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+.social-icon.facebook::after { content: 'f'; font-size: 12px; color: var(--red); } 
+.social-icon.instagram::after { content: 'i'; font-size: 12px; color:var(--red); }
+.social-icon.twitter::after { content: 't'; font-size: 12px; color:var(--red); }
+
+
+.app-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.app-badge {
+    max-width: 150px; 
+    height: auto;
+    display: block; 
+}
+
+/* Footer Bottom Bar */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.copyright {
+    font-weight: bold;
+}
+
+.powered-by strong {
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    .footer-column {
+        min-width: 40%; 
+        flex: auto; 
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-column {
+        min-width: 100%;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding-top: 15px;
+    }
+}
+
+/* footer section ended  */
