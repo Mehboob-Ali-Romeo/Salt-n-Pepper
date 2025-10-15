@@ -283,6 +283,7 @@ nav>button {
     color: var(--white);
     display: block;
     margin: 20px auto;
+    cursor: pointer;
 }
 
 .franchise-card p {
@@ -297,6 +298,8 @@ nav>button {
 }
 
 /* express franchises ended*/
+
+/* village-franchise started  */
 
 .village-franchise-head {
     margin-top: 40px;
@@ -327,12 +330,19 @@ nav>button {
     flex-direction: row-reverse;
 }
 
+.get-directions-btn {
+    background-color: #25bb25;
+    cursor: pointer;
+}
+
+
+/* village-franchise endeed  */
+
 
 /* coming soon section started  */
 
 .franchise-section {
     padding: 60px 20px;
-    text-align: center;
 }
 
 .container {
@@ -341,16 +351,17 @@ nav>button {
 }
 
 .main-title {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .subtitle {
-    font-size: 32px;
+    font-size: 4rem;
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 50px;
+    font-family: apercu;
 }
 
 .opening-soon {
@@ -367,15 +378,12 @@ nav>button {
 
 .franchise-card-coming{
     background-color:var(--white); 
-    color: var(--black);
     border-radius: 5px; 
     padding: 30px;
     min-height: 250px; 
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border: 1px solid var(--white); 
 }
 
@@ -480,10 +488,7 @@ nav>button {
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-    display: flex; 
-    justify-content: space-between;
-    gap: 30px; 
+    padding: 0 20px; 
     border-bottom: 1px solid #333333; 
     padding-bottom: 40px;
 }
@@ -498,7 +503,7 @@ nav>button {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #ffffff;
+    color:var(--white);
 }
 
 .footer-logo {
