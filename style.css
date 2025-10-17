@@ -1008,7 +1008,124 @@ footer {
 }
   /* Text part ended   */
 
-/* Publication section started  */
+/* Publication section ended  */
 
 
+/* Get a Franchise section started  */
 
+/* Form part started  */
+
+.form-container {
+    width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+   flex-direction: column;
+}
+
+.form-container h2 {
+    font-size: 4rem;
+    font-family: butler;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-container {
+    width: 90%;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(650px, 1fr));
+  gap: 25px 40px; /* row gap, column gap */
+  justify-content: center; /* center grid content */
+}
+
+
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 15px ;
+    border: none; 
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2remm;
+}
+
+/* Specific styling for the Mobile Number field to add a subtle dark border */
+#mobile {
+    border: 1px solid #990000; 
+    box-shadow: 0 0 0 1px rgba(255, 0, 0, 0.4); 
+}
+
+#brands::placeholder {
+    color: #888;
+}
+
+/* Error and Dropdown Icons Styling */
+.error-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(50%);
+    color: #cc0000; 
+    font-size: 1.1em;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 35px; 
+    top: 50%;
+    transform: translateY(50%);
+    color: #333;
+    font-size: 1.2em;
+    pointer-events: none;
+}
+
+/* Submit Button Styling */
+.submit-button {
+    background-color: #FFC72C; 
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #d39908; 
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Form part ended  */
+
+/* Project Compeleted  */
