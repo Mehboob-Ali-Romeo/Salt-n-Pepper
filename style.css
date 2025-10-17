@@ -14,6 +14,7 @@ html {
     src: url(Assets/fonts/Inter/inter-thin.ttf);
 }
 
+
 @font-face {
     font-family: apercu;
     src: url(Assets/fonts/Apercu/apercu-pro-extra-light.ttf);
@@ -23,6 +24,13 @@ html {
     font-family: futurak;
     src: url(Assets/fonts/futurak/futurak.ttf);
 }
+
+@font-face {
+    font-family: butler;
+    src: url(Assets/fonts/butler/Butler_ExtraBold.otf);
+}
+
+
 
 body {
     font-family: inter;
@@ -79,7 +87,13 @@ nav>button {
 
 .futurak {
     font-family: futurak;
-    font-size: 5rem;
+    font-weight: lighter;
+    font-size: 5rem; 
+}
+
+
+.apercu {
+    font-weight: lighter;
 }
 
 .our-brands>.para {
@@ -171,7 +185,7 @@ nav>button {
 
 
 .islamabad-img img {
-    width: 500px !important;
+    width: 650px !important;
     height: auto;
     border-radius: 12px;
     display: block;
@@ -184,14 +198,11 @@ nav>button {
 
 /* faisalabad franchise started */
 
-.faisalabad-img {
-    width: 500px;
-    border-radius: 12px;
-    overflow: hidden;
-}
 
 .faisalabad-img img {
-    width: 100%;
+     width: 650px;
+    border-radius: 12px;
+    overflow: hidden;
     height: auto;
     object-fit: cover;
     display: block;
@@ -211,13 +222,13 @@ nav>button {
 /* bahawalpur franchise started  */
 
 .bahawalpur-img {
-    width: 500px;
-    border-radius: 12px;
-    overflow: hidden;
+  
 }
 
 .bahawalpur-img img {
-    width: 100%;
+      width: 650px;
+    border-radius: 12px;
+    overflow: hidden;
     height: auto;
     object-fit: cover;
     display: block;
@@ -235,7 +246,7 @@ nav>button {
 .express-franchises-head {
     margin-top: 40px;
     font-size: 4rem;
-    font-family: apaercu;
+    font-family: apercu;
 }
 
 .express-franchises-images {
@@ -288,8 +299,8 @@ nav>button {
 
 .franchise-card p {
     font-size: 1rem;
-    line-height: 1.5; 
-    color: var(--white); 
+    line-height: 1.5;
+    color: var(--white);
     margin: 5px 0;
 }
 
@@ -304,10 +315,10 @@ nav>button {
 .village-franchise-head {
     margin-top: 40px;
     font-size: 5rem;
-    font-family: apaercu;
+    font-family: apercu;
 }
 
-.village-franchise-head  .futurak {
+.village-franchise-head .futurak {
     font-size: 5rem;
 }
 
@@ -346,7 +357,7 @@ nav>button {
 }
 
 .container {
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -371,20 +382,20 @@ nav>button {
 
 .franchise-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 30px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     padding: 0 10px;
 }
 
-.franchise-card-coming{
-    background-color:var(--white); 
-    border-radius: 5px; 
+.franchise-card-coming {
+    background-color: var(--white);
+    border-radius: 5px;
     padding: 30px;
-    min-height: 250px; 
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
+    min-height: 250px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--white); 
+    border: 1px solid var(--white);
 }
 
 
@@ -395,7 +406,7 @@ nav>button {
 .location-pin {
     width: 30px;
     height: 30px;
-    background-color:var(--red); 
+    background-color: var(--red);
     border-radius: 50% 50% 50% 0;
     transform: rotate(-45deg);
     position: relative;
@@ -406,7 +417,7 @@ nav>button {
     content: '';
     width: 12px;
     height: 12px;
-    background-color:var(--white); 
+    background-color: var(--white);
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -415,7 +426,7 @@ nav>button {
 }
 
 .status {
-    color:var(--red);
+    color: var(--red);
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
@@ -427,13 +438,13 @@ nav>button {
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 5px;
-    color:var(--black);
+    color: var(--black);
 }
 
 .city-name {
     font-size: 16px;
     margin: 0;
-    color:var(--grey);
+    color: var(--grey);
     line-height: 1.3;
 }
 
@@ -478,9 +489,9 @@ nav>button {
 
 /* Footer Container */
 .main-footer {
-    background-color: #1a1a1a; 
+    background-color: #1a1a1a;
     color: var(--white);
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -488,22 +499,22 @@ nav>button {
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; 
-    border-bottom: 1px solid #333333; 
+    padding: 0 20px;
+    border-bottom: 1px solid #333333;
     padding-bottom: 40px;
 }
 
 /* Common Column Styling */
 .footer-column {
-    flex: 1; 
-    min-width: 200px; 
+    flex: 1;
+    min-width: 200px;
 }
 
 .column-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
-    color:var(--white);
+    color: var(--white);
 }
 
 .footer-logo {
@@ -515,7 +526,7 @@ nav>button {
 .description {
     font-size: 14px;
     line-height: 1.8;
-    color: #cccccc; 
+    color: #cccccc;
     margin-bottom: 20px;
 }
 
@@ -525,6 +536,7 @@ nav>button {
     padding-right: 15px;
     border-right: 1px solid #cccccc;
 }
+
 .legal-links a:last-child {
     border-right: none;
     margin-right: 0;
@@ -543,7 +555,8 @@ nav>button {
 }
 
 /* Link Styling */
-.footer-link, .contact-detail {
+.footer-link,
+.contact-detail {
     color: #cccccc;
     text-decoration: none;
     font-size: 14px;
@@ -551,7 +564,7 @@ nav>button {
 }
 
 .footer-link:hover {
-    color: var(--red); 
+    color: var(--red);
 }
 
 /* Column 3: Contact Us */
@@ -567,6 +580,7 @@ nav>button {
     font-weight: bold;
     color: #ffffff;
 }
+
 .contact-us strong:first-child {
     margin-top: 0;
 }
@@ -587,26 +601,42 @@ nav>button {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color:var(--red); 
+    background-color: var(--red);
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--white);
+    color: var(--white);
     text-decoration: none;
     font-size: 16px;
     position: relative;
 }
+
 .social-icon::after {
-    content: ''; 
+    content: '';
     width: 10px;
     height: 10px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
 }
-.social-icon.facebook::after { content: 'f'; font-size: 12px; color: var(--red); } 
-.social-icon.instagram::after { content: 'i'; font-size: 12px; color:var(--red); }
-.social-icon.twitter::after { content: 't'; font-size: 12px; color:var(--red); }
+
+.social-icon.facebook::after {
+    content: 'f';
+    font-size: 12px;
+    color: var(--red);
+}
+
+.social-icon.instagram::after {
+    content: 'i';
+    font-size: 12px;
+    color: var(--red);
+}
+
+.social-icon.twitter::after {
+    content: 't';
+    font-size: 12px;
+    color: var(--red);
+}
 
 
 .app-links {
@@ -616,9 +646,9 @@ nav>button {
 }
 
 .app-badge {
-    max-width: 150px; 
+    max-width: 150px;
     height: auto;
-    display: block; 
+    display: block;
 }
 
 /* Footer Bottom Bar */
@@ -647,9 +677,10 @@ nav>button {
         justify-content: flex-start;
         gap: 40px;
     }
+
     .footer-column {
-        min-width: 40%; 
-        flex: auto; 
+        min-width: 40%;
+        flex: auto;
     }
 }
 
@@ -658,9 +689,11 @@ nav>button {
         flex-direction: column;
         gap: 30px;
     }
+
     .footer-column {
         min-width: 100%;
     }
+
     .footer-bottom {
         flex-direction: column;
         text-align: center;
@@ -670,3 +703,232 @@ nav>button {
 }
 
 /* footer section ended  */
+
+
+
+
+
+
+
+
+/* about us section started */
+
+/* head part started */
+
+.about-us,
+.restaurant-intro {
+    color: #dcdcdc;
+    padding: 80px 20px;
+    line-height: 1.5;
+}
+
+.about-us h2,
+.restaurant-intro h2 {
+    font-family: butler;
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: 1.3px;
+}
+
+.restaurant-intro h2 {
+    font-family: butler;
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+    letter-spacing: 1.3px;
+}
+
+.about-us p,
+.restaurant-intro p {
+    max-width: 85%;
+    font-size: 1.6rem;
+    font-family: apercu;
+    font-weight: bolder;
+    margin: 0 auto 15px;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.restaurant-intro {
+    padding-top: 0px;
+}
+
+.about-us,
+.restaurant-intro {
+    transition: all 0.3s ease-in-out;
+}
+
+/* head part ended */
+
+/* salt n pepper resturant started */
+
+.restaurant-intro {
+     padding: 60px 80px;
+}
+
+.franchise-one .futurak {
+    font-size: 3.3rem;
+}
+
+
+.franchise-one h3 {
+    margin: 3rem 0 1.5rem;
+    font-size: 3.3rem;
+    font-family: inter;
+}
+
+.one-img img {
+    margin-top: 4rem;
+    width: 650px;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+}
+
+.about-franchise-text {
+  flex: 1 1 45%;
+  text-align: left;
+}
+
+.about-franchise-text p {
+  margin: 0; 
+  font-size: 1.5rem;
+  font-family: apercu;
+  line-height: 1.6;
+}
+
+.one-img {
+  flex: 1 1 45%;
+}
+
+/* salt n pepper resturant ended */
+
+
+
+/* salt n pepper Village resturant started */
+
+.its-resturants {
+     padding: 60px 80px;
+}
+
+
+.franchise-two .futurak {
+    font-size: 3.3rem;
+}
+
+
+.franchise-two h3 {
+    margin: 3rem 0 1.5rem;
+    font-size: 3.3rem;
+    font-family: inter;
+}
+
+.franchise-two {
+    flex-direction: row-reverse;
+}
+
+
+
+.its-resturants span {
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+
+.its-two .futurak {
+    font-size: 3.3rem;
+}
+
+
+.its-two h3 {
+    margin: 3rem 0 1.5rem;
+    font-size: 3.3rem;
+    font-family: inter;
+}
+
+.its-two {
+    flex-direction: row-reverse;
+}
+
+.its-one h3 {
+    margin: 3rem 0 1.5rem;
+    font-size: 3.3rem;
+    font-family: inter;
+}
+
+.first-img {
+     flex: 1 1 45%;
+}
+
+.first-img img {
+     margin-top: 4rem;
+    width: 650px;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+}
+
+.about-its-text p {
+  margin: 0; 
+  font-size: 1.7rem;
+  font-family: apercu;
+  line-height: 1.6;
+}
+
+.about-its-text {
+  flex: 1 1 45%;
+  text-align: left;
+}
+
+.its-four-heading p {
+    font-size: 1.7rem;
+}
+
+
+.its-four {
+    flex-direction: row-reverse;
+}
+
+/* village-franchise-head-about started  */
+
+
+.village-franchise-head-about {
+    margin-top: 40px;
+    font-size: 4rem;
+    font-family: apercu;
+}
+
+.village-franchise-head-about .futurak {
+    font-size: 3.5rem;
+}
+
+.village-franchise-about {
+  flex-direction: row-reverse;
+  align-items:flex-start;
+  justify-content: flex-start; 
+  gap: 0; 
+  margin-top: 60px;
+}
+
+.franchise-text {
+  flex: 1;
+  margin: 0;
+  padding: 0 30px; 
+}
+
+.village-about-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.village-about-img img {
+  width: 630px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+footer {
+    margin-top: 80px;
+}
