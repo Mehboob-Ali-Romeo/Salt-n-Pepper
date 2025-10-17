@@ -932,3 +932,83 @@ nav>button {
 footer {
     margin-top: 80px;
 }
+
+/* about us section ended */
+
+
+/* Publication section started  */
+
+
+/* book shelf started  */
+
+.book-shelf {
+  display: flex;
+  gap: 2rem; 
+  perspective: 1500px; 
+  min-height: 100vh;
+}
+
+.book {
+  width: 650px;
+  height: 700px;
+  border: 1px solid #c8b8b8;
+  border-radius: 8px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.5s; 
+  cursor: pointer;
+}
+
+.book img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.book:hover {
+  transform: rotateY(15deg) rotateX(5deg) scale(1.05);
+}
+
+/* book shelf endeted  */
+
+  /* Text part started   */
+
+.branches-info {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.branches-info h3 {
+  font-size: 3.2rem;
+  font-family: 'butler', serif;
+  margin: 32px 0 24px;
+}
+
+.branches-info p {
+  margin: 0.5rem 0;
+   font-size: 1.4rem;
+  font-family: 'apercu', sans-serif;
+}
+
+.branches-info p strong {
+  display: block;
+  font-size: 1.6rem;
+  font-family: 'inter', sans-serif;
+  margin-bottom: 0.2rem;
+}
+
+.branches-info p span {
+  display: block;
+  font-size: 1.4rem;
+  font-family: 'apercu', sans-serif;
+}
+  /* Text part ended   */
+
+/* Publication section started  */
+
+
+
